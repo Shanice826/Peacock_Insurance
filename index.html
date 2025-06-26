@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Shanice Thompson">
+    <meta name="description" content="A sign up form for new users to create an account">
+    <meta name="robots" content="follow, index">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/Fav_Ico/favicon_io/favicon-16x16.png">
+    <title> Sign up To Start Saving </title>
+</head>
+<body>
+<main>
+<form action="thankyou.html" method="post" aria-labelledby="signup-header" id="form">
+    <header>
+        <h1 id="signup-header">Sign up</h1>
+        <p class="header-text">Create an account or <a href="#"> sign in</a></p>
+    </header>
+    <section class="form-section">
+        <label for="email" class="email">Email address</label>
+        <input type="email" name="email" id="email"  minlength="5" required>
+    </section>
+    <section class="form-section">
+        <label for="username" class="username">Username</label>
+        <input type="text"   id="username"    name="username"  maxlength="50" required>
+    </section>
+    <section class="form-section">
+        <label for="password" class="password">Password</label>
+        <input type="password" id="password"     name="password" aria-describedby="passwordhelp"maxlength="15" required>
+    </section>   
+<div class="checkbox-container">
+        <input type="checkbox" id="marketing-opt-out" name="marketing-opt-out"> 
+        <label for="marketing-opt-out">
+          Opt out of marketing emails, advertisements, third-party emails, and promotions
+</div>    
+    </label>     
+    <section class="btn-section">
+        <br>
+        <button type="submit">Sign up</button>
+</section> 
+        <p class="terms">By signing up to create an account with Peacock Insurance you are accepting our <a href="#">terms of service</a> and <a href="#">privacy policy.</a></p>
+    
+</form>
+</main>
+<script src="index.js"></script> 
+</body>
+</html>
