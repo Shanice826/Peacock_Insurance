@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/a0bf6d0d-6c97-41a5-ab5f-d8f67e9644dc
 5. Media Queries
 6. GitHub Pages
 
-## What I've learned:
+## What I've learned 🎓
 
 1. HTML Semantics: not using <div> all over the place, being mindful when to use them as only for styling but not for solely structure.
 2. Form verification with HTML and JS.
